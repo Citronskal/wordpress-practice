@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import WordPressPosts from './WordPressPosts';
+import WordPressContent from './WordPressConent';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <h1>My WordPress Blog</h1>
       </header>
-      <WordPressPosts />
+      <WordPressContent />
     </div>
   );
 }
